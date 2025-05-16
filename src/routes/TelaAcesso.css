@@ -1,0 +1,28 @@
+
+  .AcessarConta, .CriarConta {
+    width: 100%;
+    max-width: 250px;
+    height: 43px;
+    background-color: #455a10;
+    border-radius: 4px;
+    font-family: 'Abel', Helvetica;
+    font-size: 18.3px;
+    letter-spacing: 1.83px;
+    color: #fff5e7;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+   
+  .AcessarConta, .CriarConta  button:hover {
+    background-color: #3a4c0d;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 43px;
+  }

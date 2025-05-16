@@ -1,0 +1,155 @@
+.cardapio-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 250px;
+    margin-bottom: 150px;
+}
+
+.TipoItem {
+    width: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8EEE0;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+  }
+  
+  .TipoItem img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  
+  .conteudoItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .conteudoItem h5 {
+    font-size: 12px;
+    font-family: 'Brawler', serif;
+    color: #455A11;
+    margin: 0;
+  }
+  
+  .conteudoItem h6 {
+    font-size: 13px;
+    color: #455A11;
+    font-family: 'Brawler', serif;
+    margin: 4px 0 0 0;
+  }
+  
+  .acoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .FavIcon,
+  .Adicionar {
+    background-color: #fff5e6;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+    padding: 6px;
+    width: 20px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .FavIcon {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .FavIcon img{
+    width: 30px;
+  }
+
+  .Adicionar img{
+    width: 10px;
+    height: 10px;
+    margin: 0;
+  }
+  
+
+.Indisponiveis {
+    padding: 20px;
+    font-family: 'Abel';
+    text-align: center;
+    color: #455A11;
+  }
+
+
+
+  .Indisponiveis h6{
+    font-family: 'Brawler','Regular';
+    font-size: 10px;
+    line-height: 0;
+  }
+  
+  .ItemIndisponivel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8EEE0;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 310px;
+    height: 60px;
+    box-sizing: border-box;
+  }
+  
+  .ItemIndisponivel img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .infoIndisp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+  }
+  
+  .InfoIndisp h5 {
+    position: relative;
+    font-size: 12px;
+    font-weight: 600;
+
+  }
+  
+  .InfoIndisp h6 {
+    position: relative;
+    bottom: 15px;
+    right:  7vh;
+    font-size: 13px;
+    margin: 0;
+    color: #455A11;
+  }
+
+  .AddAosFavs{
+    background: none;
+    border: none;
+  }
+  
+  .AddAosFavs img {
+    width: 30px;
+    height: 35px;
+  }
+  

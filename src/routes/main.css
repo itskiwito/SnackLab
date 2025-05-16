@@ -1,0 +1,149 @@
+.main-container{   
+ height: 75vh;   
+}
+
+
+.Pesquisa{
+    position: absolute;
+    top: 43px;
+    left: 29px;
+    border-radius: 6px;
+    width: 330px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+
+.container{
+    display: inline-block;
+}
+
+.container-box {
+    display: inline-block;
+    background-color: #f7eddf;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;  
+    width: 165px;
+    height: 80px;
+    margin: 10px;
+   
+}
+
+.container-box h2{
+  margin-top: -40px ;
+  color: #455a10;
+  font-family: 'Abel', Helvetica;
+  font-size: 32px;
+  letter-spacing: 4.62px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Subcategorias{
+    display: inline-block;
+    background-color:#f7eddf ;
+    border-radius: 6px;
+    width: 87px;
+    height: 31px;
+    margin: 5px;
+}
+
+.Subcategorias h4{
+    display: inline-block;
+    color: #455a10;
+      font-family: 'Abel', Helvetica;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    margin-top: 7px ;
+}
+
+#salgado{
+    width: 158px;
+    height: 31px;
+}
+
+
+.filtros h5{
+    display: inline-block;
+    color: #455A11;
+    font-family: 'Abel', Helvetica;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 10px;
+}
+
+
+.filtros button {
+    background-color: #f7eddf;
+    border: none;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    margin: 5px;
+    font-size: 11px;
+    color: #455A11;
+    cursor: pointer;
+    height: 16px;
+    width: 90px;
+}
+
+.filtros button:hover {
+    background-color: #ffeacc;
+}
+
+
+.checkbox-filtro{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.checkbox-filtro input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #e6ddcd;
+    margin-right: 8px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border:10px solid #e6ddcd;
+    outline: none;
+
+}
+.checkbox-filtro input[type="checkbox"]:checked{
+    background-color: #455A11;
+  }
+
+
+  .cardapio{
+    padding-bottom: 100px;
+  }
+
+  .cardapio h1{
+    color: #455A11;
+    font-family: 'Abel', Helvetica;
+    letter-spacing: 4.62px;
+  }
+
+  .cardapio h3{
+    color: #455A11;
+    font-family: 'Abel', Helvetica;
+  }
+
+  .linguica{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 6px;
+    background-color: #f7eddf;
+    color: #f7eddf;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px) brightness(100%);
+    height: 7.5vh;
+    width: 70%;
+    margin-left: 60px;
+  }

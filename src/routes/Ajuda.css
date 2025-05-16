@@ -1,0 +1,48 @@
+.App-container, .Topics {
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Abel', Helvetica;
+    font-weight: 300;
+    color: #455a10;
+    font-size: 46.2px;
+    text-align: center;
+    letter-spacing: 4.62px;
+    line-height: normal;
+}
+
+.Options {
+    width: 80%;
+    max-width: 400px;
+    background-color: #f7eddf;
+    padding: 10px 13px;
+    border-radius: 6px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin: 10px auto; 
+    text-align: center;
+}
+
+.Options p {
+    font-family: 'Abel', 'Brawler', Helvetica, sans-serif;
+    font-size: 14px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #455a10;
+    letter-spacing: 1.4px;
+    background-color: #ede5db;
+    backdrop-filter: blur(2px) brightness(100%);
+    -webkit-backdrop-filter: blur(2px) brightness(100%);
+    border-radius: 6px;
+    padding: 5px; 
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+}

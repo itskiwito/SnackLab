@@ -1,0 +1,268 @@
+
+
+/* Container principal */
+
+.Quase-Container{
+  height: 80vh;
+  text-align: left;
+}
+
+.Quase-Container h1{
+  line-height: 0;
+}
+
+
+.container-pedido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Card de produto */
+  .pedido {
+    width: 325px;
+    height: 80px;
+    background-color: #f7eddf;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+  }
+  .Fundo{
+    min-width: 58px;
+    height: 58px;
+    position: relative;
+    left: 10px;
+    background-color: #ede5db;
+    border-radius: 6px;
+
+  }
+  .Fundo img {
+    position: relative;
+    top: 2px;
+    left: 6px;
+    border-radius: 6px;
+
+  }
+  
+  #Sanduba{
+    position: relative;
+    top: 10px;
+    left: 8.5px;
+    width: 40px;
+    height: 39px;
+  }
+
+.anota{
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+
+  .anota h5 {
+    font-family: 'Brawler', Helvetica;
+    font-size: 11px;
+    color: #455a10;
+    letter-spacing: 1.1px;
+    margin: 0;
+  }
+  
+  .anota h6 {
+    font-family: 'Brawler', Helvetica;
+    font-size: 8px;
+    color: #455a10;
+    letter-spacing: 0.8px;
+    margin: 2px 0 0 0;
+  }
+
+  .qtd{
+    position: relative;
+    bottom: 10px;
+  }
+
+
+
+.botoes2 button{
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+    background-color: #fff5e6;
+    border: none;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    display: block;
+  }
+
+  .botoes3 button{
+    position: relative;
+    bottom: 10px;
+    left: 63px;
+    background-color: #fff5e6;
+    border: none;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    display: block;
+  }
+  
+  .Subtrair{
+    position: relative;
+    top: 10px;
+  }
+
+  .Titulo h4 {
+    font-family: 'Brawler', Helvetica;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    color: #455a10;
+    margin: 0;
+
+  }
+
+.Cupom input{
+  width: 295px;
+  height: 8px;
+  position: relative;
+  left: 15px;
+}
+
+  .Cupom h3, .Pagamento h3 {
+    font-family: 'Brawler', Helvetica;
+    font-size: 13px;
+    color: #455a10;
+    margin: 10px 0 5px 25px;
+  }
+  
+  
+  .Pagamento h5 {
+    font-family: 'Brawler', Helvetica;
+    font-size: 11px;
+    color: #455a10;
+    margin: 5px 0 0 25px;
+    background-color: #f7eddf;
+    width: 325px;
+    height: 31px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 10px;
+
+  }
+  
+  .linkPagar {
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .linkPagar a {
+    font-size: 10px;
+    color: #455a10;
+    text-align: right;
+    margin-left: -10px;
+  }
+
+  .Resumo-Pedido {
+    width: 325px;
+    background-color: #f7eddf;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px auto;
+    font-family: 'Brawler', Helvetica;
+    color: #455a10;
+    font-size: 11px;
+    height: 160px;
+  }
+  
+  .Resumo-Pedido p {
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+  .Resumo-Pedido button {
+    background-color: transparent;
+    border: none;
+    color: #444;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+    position: relative;
+    bottom: 10px;
+    left: 120px;
+
+  }
+  
+  .ContinuarButton {
+    width: 312px;
+    height: 43px;
+    background-color: #455a10;
+    border-radius: 4px;
+    color: #fff5e7;
+    font-size: 14px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+  }
+  
+  .ContinuarButton a {
+    text-decoration: none;
+    color: #fff5e7;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 43px;
+    text-align: center;
+  }
+  
+  .ContinuarButton:hover {
+    background-color: #3a4c0d;
+  }
+
+  .PagamentoForma{
+    width: 100%;
+    max-width: 310px;
+    background-color: #f7eddf;
+    padding: 10px 13px;
+    border-radius: 6px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin: 10px auto; 
+    text-align: center;
+  }
+
+  .PagamentoForma button{
+    display: block;
+    font-family: 'Brawler', 'Regular';
+    font-size: 14px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #455a10;
+    letter-spacing: 1.4px;
+    background-color: #ede5db;
+    border: none;
+    border-radius: 6px;
+    padding: 5px; 
+    width: 100%;
+    height: 28px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+
+  .PagamentoForma h3{
+    color: #455a10;
+   
+  }
+
+  .PagamentoForma h5{
+    text-align: left;
+    font-size: 10px;
+    font-family: 'Brawler','Regular';
+  }
+
+  .PagamentoForma a {
+    line-height: normal;
+  }

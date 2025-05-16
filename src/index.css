@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Abel:400|Brawler:400");
+@import url('https://fonts.googleapis.com/css2?family=Brawler&display=swap');
+
+
+body {
+  background-color: #fff5e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.brawler-regular {
+  font-family: "Brawler", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+input[type="text"],
+  input[type="senha"],
+   input[type="number"],
+   input[type="date"] {
+    width: 80%;
+    background-color: #F8EEE0;
+    padding: 10px 13px;
+    border-radius: 6px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .Help {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 24px;
+    height: 24px;
+    color: #455a10;
+  }
+  
+  .form-group {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Voltar{
+    position: absolute;
+    top: 31px;
+    left: 30px;
+    padding: 0;
+    height: auto;
+    background-color: #fff5e7;
+    border-color: transparent;
+  }
+
+  .form-group h1 {
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Abel', 'Regular';
+    font-weight: 300;
+    color: #455a10;
+    font-size: 46.2px;
+    text-align: center;
+    letter-spacing: 4.62px;
+    line-height: normal;
+  }
+
+  .form-group h5 {
+    font-family: 'Brawler', 'Regular';
+    font-weight: normal;
+    color: #455a10;
+    text-align: center;
+    line-height: normal;
+  }
+  
+ .form-group label {
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: #455a10;
+    margin-bottom: 5px;
+    margin-right: 250px;
+  }
+
+  .Titulo h1{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Abel', 'Regular';
+    font-weight: normal;
+    color: #455a10;
+    font-size: 46.2px;
+    text-align: center;
+    letter-spacing: 4.62px;
+    line-height: normal;
+  }
+
+.SubTitulo{
+    font-family: 'Brawler', 'Regular';
+    font-weight: normal;
+    color: #455a10;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1.30px;
+    line-height: normal;
+}
+
+.Titulo h3, h5 {
+  color: #455a10;
+  font-family: 'Brawler', 'Regular';
+  font-size: 14px;
+  letter-spacing: 1.4px;
+}
+
+
+.infoInput{
+  width: 280px;  
+  margin: 20px; 
+  margin-top: 40px
+}
+
+.infoInput label{
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  color: #455a10;
+  text-align: center;
+}
+
+.Container-Infoperfil{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+
+.obrigatorio{
+  text-align: left;
+  margin-left: 35px;
+}
+
+.obrigatorio h5, p{
+  line-height: 0;
+  color: #455a10;
+  font-family: 'Brawler','Regular';
+  font-weight: 400;
+}
+
+.AltSenha{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+
+.infoInput a{
+  line-height: 0;
+  text-align: right;
+  position: relative;
+  right:  15px;
+  color: #455a10;
+}
+
+
+.codigoUnico h6{
+  color: transparent;
+}
+
+.AltSenha{
+  margin-top: 200px;
+  margin-bottom: 100px;
+}

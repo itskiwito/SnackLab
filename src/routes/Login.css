@@ -1,0 +1,51 @@
+.app-container {
+    background: #fff5e7;
+    width: 375px;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+    padding: 20px;
+  }
+  
+  .Voltar{
+    position: absolute;
+    top: 31px;
+    left: 30px;
+    padding: 0;
+    height: auto;
+    background-color: #fff5e7;
+    border-color: transparent;
+  }
+  
+  .input-error {
+    border: 2px solid red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -5px;
+  }
+  
+  .Icon {
+    width: 41px;
+    height: 41px;
+    background-color: #455a10;
+    border-radius: 80px;
+    border:none;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .Icon:hover {
+    background-color: #556b21;
+  }
+  
+  .Icon a{
+    line-height:46px ;
+  }

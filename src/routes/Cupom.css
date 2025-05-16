@@ -1,0 +1,63 @@
+.Container-cupons{
+    height: 80vh;
+}
+
+.Cupons{
+    background-color: #f7eddf;
+    border-radius: 6px;    
+    margin: 15px auto;
+    text-align: left;
+    width: 325px;
+    min-height: 100px;
+    line-height: 0;
+}
+
+.Cupons  h5{
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.validade h6{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    font-size: 9px;
+    text-align: left;
+}
+
+.desconto{
+    position: relative;
+    bottom: 61px;
+    text-align: right;
+    right: 20px;
+}
+
+.code h5{
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+.linkRegra a{
+    position: relative;
+    bottom: 5px;
+    right: 10px;
+    text-align: right;
+    line-height: 0;
+}
+
+.Regra{
+    background-color: #f7eddf;
+    border-radius: 6px;
+    width: 325px;
+}
+
+.Regra h5{
+   font-size: 12px;
+}
+
+.Regra li{
+    color:#455a10;
+}

@@ -1,0 +1,78 @@
+.Desc-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+
+.imgContainer{
+    background-color: #F8EEE0;
+    border-radius: 6px;
+    width: 300px;
+}
+
+.Favoritos{
+    border: none;
+    background-color: #F8EEE0;
+    position: relative;
+    left: 18.4vh;
+    bottom: 5vh;
+}
+
+.Adiciona{
+    border: none;
+    background-color: #F8EEE0;
+    position: relative;
+    left: 13vh;
+    top: 1vh;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    height: 45px;
+    width: 45px;
+}
+
+.Descricao{
+    background-color: #F8EEE0;
+    width: 262px;
+    height: 155px;
+    border-radius: 6px;
+}
+
+.Descricao h6{
+    color: #455A11;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.Tabela{
+    background-color: #F8EEE0;
+    width: 262px;
+    height: 155px;
+    border-radius: 6px;
+    margin-top: 10px;
+    
+}
+
+.InfoProduto h2{
+    font-family: 'Brawler', 'Regular';
+    font-size: 24px;
+    color: #455A11;
+    font-weight: 300;
+}
+
+.Favoritos2{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    left: 16.4vh;
+    bottom: 5vh;
+}
+
+.Desc-Container-ind{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    margin-bottom: 100px;
+}

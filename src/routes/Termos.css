@@ -1,0 +1,23 @@
+.TermosTitulo{
+    font-family: 'Abel', Helvetica;
+    color: #455a10;
+    font-size: 15px;
+    letter-spacing: 4.62px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5em;
+}
+
+.TermosLista{
+    display: flex;
+    color: #455a10;
+    font-family: 'Brawler', Helvetica;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    background-color: white;
+    width: 318px;
+    height: 499px;
+}
+
+.TermosLista li{
+ margin: 10px;
+}

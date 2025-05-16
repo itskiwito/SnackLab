@@ -1,0 +1,72 @@
+.Container-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+
+.NomePerfil{
+    background-color: #f7eddf;
+    width: 100%;
+    max-width: 250px;
+    max-height: 40px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.NomePerfil h3{
+    color: #455a10;
+    font-family: 'Brawler', Helvetica;
+}
+
+.BotoesPerfil{
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #f7eddf;
+    border-radius: 6px;
+    width: 250px;
+    height: 380px;
+    margin-top: 20px;
+}
+
+.BotoesPerfil button{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Abel', 'Brawler', Helvetica, sans-serif;
+    font-size: 14px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #455a10;
+    background-color: #ede5db;
+    border-radius: 6px;
+    border: none;
+    width: 200px;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.BotoesPerfil a{
+ height: 11.5%;
+
+}
+.FotoPerfil{
+    background-color: #f7eddf;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+

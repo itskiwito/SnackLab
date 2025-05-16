@@ -1,0 +1,33 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:8%;
+    background-color: #f7eddf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    border-radius:3px;
+  }
+  
+  .icones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #455A11;
+    font-family: 'Abel', Helvetica;
+    
+  }
+
+  .icones img{
+    margin-bottom: -20px;
+  }
+
+  .icones h6{
+    margin-bottom: -1px;
+  }
+  
+  .icones a{
+    line-height: 0;
+  }
